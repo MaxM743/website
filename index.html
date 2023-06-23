@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <script id="MathJax-script" async src="tex-mml-svg.js"></script>
+    <script src='loadfont.js'></script>
+
+    <script src='p5.min.js'></script>
+    <script src='triang.js'></script>
+    <script>
+        function buttonClicked(page) {
+            window.location.href = page;
+        }
+    </script>
+    <title>Main</title>
+</head>
+
+<body>
+    <div>
+        <header>
+            <div>&nbsp;</div>
+            <nav>
+                <ul class="navbar">
+                    <div class="navbar-button" id="" onclick="buttonClicked('index.html')">Main</div>
+                    <div class="navbar-button" id="" onclick="buttonClicked('projects.html')">Projects</div>
+                </ul>
+            </nav>
+            <div class="navbar-button" id="" lang="en">Fr</div>
+        </header>
+
+        <main>
+            <div class="p5-container-main">
+                <div id="p5-sketch-main">
+                    <script src="triangle-mesh.js"></script>
+                </div>
+
+            </div>
+        </main>
+
+
+        <footer>
+            <p> &copy;2023. No rights reserved.</p>
+        </footer>
+
+
+
+    </div>
+</body>
+
+</html>
